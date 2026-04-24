@@ -14,7 +14,7 @@ function App() {
     setError(null);
     try {
       const payload = inputStr.split(",").map(s => s.trim()).filter(Boolean);
-      const res = await fetch("http://localhost:5000/bfhl", {
+      const res = await fetch("https://hierarchy-analyzer-backend.onrender.com/bfhl", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ data: payload })
