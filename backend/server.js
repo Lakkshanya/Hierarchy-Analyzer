@@ -26,7 +26,7 @@ app.post("/bfhl", (req, res) => {
             processHierarchies(graph, parentRef);
 
         res.json({
-            user_id: "LakkshanyaSuresh_01072005",
+            user_id: "lakkshanyasuresh_01072005",
             email_id: "ls4150@srmist.edu.in",
             college_roll_number: "RA2311003020481",
             hierarchies,
